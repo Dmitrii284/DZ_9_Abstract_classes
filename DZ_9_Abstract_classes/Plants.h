@@ -5,7 +5,6 @@
 
 #include"Harvest.h"
 #include"Source.h"
-#include"Plants.h"
 
 #include <iostream>
 
@@ -16,13 +15,10 @@ private:
 public:
    
     friend std::ostream& operator<< (std::ostream& out, int data);
-    friend std::istream& operator>> (std::istream& in, int data);
+    friend std::istream& operator>> (std::istream& in, Calculator& data);
 };
 
-std::ostream& operator<< (std::ostream& out, int data)
-{
-    return out;
-}
+
 
 std::istream& operator>> (std::istream& in, Calculator& cal)
 {
