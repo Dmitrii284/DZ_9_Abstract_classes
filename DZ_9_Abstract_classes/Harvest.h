@@ -9,7 +9,6 @@ private:
 	float _weigth;
 	std::string _colorHar;
 public:
-
 	Harvest(const std::string name, float weigth, const std::string colorHar);
 	virtual ~Harvest();
 	virtual	void ShowHarvest() const;	

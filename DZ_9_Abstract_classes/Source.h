@@ -4,7 +4,6 @@
 #include"Harvest.h"
 
 
-
 class Apple : public Harvest
 {
 public:
